@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from "./components/home";
+import Navigation from "./components/nav";
+import Project from "./components/project";
+import About from "./components/about";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="h-screen">
+      <Navigation />
+      <Home />
+      <About />
+      <Project />
+      <footer className=" flex flex-col items-center justify-center bg-zinc-800 text-white font-semibold py-[20px]">
+        <h1 className="text-center text-md">
+          Created by{" "}
+          <a href="http://instagram.com/hmdnubaidillah" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">
+            hmdnubaidillah
+          </a>
+        </h1>
+      </footer>
+    </main>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Frontend",
+    "items": [{ "item": "Html & Css" }, { "item": "Javascript" }, { "item": "React.js" }]
+  },
+  {
+    "title": "Backend",
+    "items": [{ "item": "Node.js" }, { "item": "Express.js" }]
+  },
+  {
+    "title": "Tools",
+    "items": [{ "item": "Vs Code" }, { "item": "Photoshop" }, { "item": "Figma" }]
+  }
+]

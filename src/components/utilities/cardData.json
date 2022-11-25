@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Jikan Anime Finder",
+    "img": "/img/anime-finder.png",
+    "linkDemo": "https://hmdn-anime-finder.netlify.app/",
+    "linkRepo": "https://github.com/HamdanUbaidillah/anime-finder",
+    "desc": "Find anime detail from MAL using unofficial MAL API Jikan"
+  },
+  {
+    "name": "Simple Quiz App",
+    "img": "/img/quizz-app.png",
+    "linkDemo": "https://quiz-app-eight-gules.vercel.app/",
+    "linkRepo": "https://github.com/HamdanUbaidillah/quiz-app",
+    "desc": "Simple quizz with 10 questions"
+  },
+  {
+    "name": "Pixabay Image Finder",
+    "img": "/img/pixabay-img.png",
+    "linkDemo": "https://pixabay-api-bay.vercel.app/index.html",
+    "linkRepo": "https://github.com/HamdanUbaidillah/pixabay-api",
+    "desc": "Find image from Pixabay using Pixabay API"
+  }
+]
