@@ -1,9 +1,6 @@
 import TypeAnimate from "./utilities/typingAnimation";
 
-import Svg from "../assets/layered-waves-haikei.png";
-
 const Home = () => {
-  console.log(Svg);
   return (
     <main id="home" className="h-screen flex items-center justify-center flex-col bg-zinc-800">
       <div className=" text-center max-md:w-[90%] rounded-xl shadow-[10px_10px_1px_0px_rgb(82,82,91)] hover:shadow-zinc-500 transition-all duration-300 hover:cursor-default bg-zinc-700 w-[500px] h-[200px] flex flex-col justify-center items-center">

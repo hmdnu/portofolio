@@ -12,7 +12,11 @@ const About = () => {
           <a href="https://www.smarifda.sch.id/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline font-semibold">
             SMA Maarif NU Pandaan
           </a>
-          .<p className="mt-2"> I got interest in programming especially in web development since jan 2022 while in pandemic. Im also intrested in game, music and anime/manga also in western movie."</p>
+          .
+        </p>
+        <p className="mt-2 w-[750px] m-auto max-sm:w-[300px] max-sm:text-[13px]">
+          {" "}
+          I got interest in programming especially in web development since jan 2022 while in pandemic. Im also intrested in game, music and anime/manga also in western movie."
         </p>
       </article>
       {/* skills */}
