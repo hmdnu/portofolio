@@ -9,17 +9,17 @@ const Cards = () => {
             // card container
             <div className="bg-zinc-700 w-[25rem] max-md:w-[20rem] flex flex-col items-center py-5 px-5 m-auto rounded-2xl hover:translate-y-[-10px] transition duration-300" key={i}>
               {/* card title */}
-              <h1 className="font-semibold text-xl underline">{datas.name}</h1>
+              <h1 className="font-semibold text-xl max-sm:text-lg underline">{datas.name}</h1>
               {/* card img */}
               <div className="w-[20rem] max-md:w-[15rem] mt-4">
-                <img loading="lazy" src={datas.img} alt="" className="rounded-2xl" />
+                <img loading="lazy" src={datas.img} alt="project" className="rounded-2xl" />
               </div>
               {/* desc */}
               <article className="mt-2">
-                <p className="text-center font-semibold">"{datas.desc}"</p>
+                <p className="text-center max-md:text-sm font-semibold">"{datas.desc}"</p>
               </article>
               {/* buttons */}
-              <div className="mt-3 flex gap-5">
+              <div className="mt-3 flex gap-5 max-sm:text-sm">
                 <button className="bg-blue-600 px-4 py-1 rounded-lg hover:bg-blue-700 transition-all">
                   <a className="font-semibold" href={datas.linkDemo} target="_blank" rel="noopener noreferrer">
                     Demo

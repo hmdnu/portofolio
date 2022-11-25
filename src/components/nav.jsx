@@ -27,7 +27,7 @@ const Navigation = () => {
       }
     >
       <div className="font-bold">
-        <h1 className="text-[25px] font-['Open_Sans'] max-sm:text-[23px]">hmdnubaidillah</h1>
+        <h1 className="text-[25px] font-['Open_Sans'] max-sm:text-[20px]">hmdnubaidillah</h1>
       </div>
       <div className="w-full flex justify-end md:hidden">
         <span className="material-symbols-outlined text-4xl active:bg-gray-500 rounded-sm px-1 transition-all" onClick={() => setOpenNav(!openNav)}>
@@ -39,7 +39,7 @@ const Navigation = () => {
           {Links.map((link, i) => {
             return (
               <li key={i}>
-                <a href={link.link} onClick={() => setOpenNav(false)} className="hover:underline">
+                <a href={link.link} onClick={() => setOpenNav(false)} className="hover:underline max-sm:text-[18px]">
                   {link.name}{" "}
                 </a>
               </li>
