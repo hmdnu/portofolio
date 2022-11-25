@@ -25,7 +25,7 @@ const TypeAnimate = () => {
   }, []);
   return (
     <div className="type-wrap">
-      <span className="text-[25px] max-md:text-[22px] text-center font-semibold font-['Poppins']  text-white" style={{ whiteSpace: "pre" }} ref={el} />
+      <span className="text-[25px] max-md:text-[20px] text-center font-semibold font-['Poppins']  text-white" style={{ whiteSpace: "pre" }} ref={el} />
     </div>
   );
 };
