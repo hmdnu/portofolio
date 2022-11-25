@@ -12,7 +12,7 @@ const Cards = () => {
               <h1 className="font-semibold text-xl underline">{datas.name}</h1>
               {/* card img */}
               <div className="w-[20rem] max-md:w-[15rem] mt-4">
-                <img src={datas.img} alt="" className="rounded-2xl" />
+                <img loading="lazy" src={datas.img} alt="" className="rounded-2xl" />
               </div>
               {/* desc */}
               <article className="mt-2">
