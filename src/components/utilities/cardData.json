@@ -19,5 +19,12 @@
     "linkDemo": "https://pixabay-api-bay.vercel.app/index.html",
     "linkRepo": "https://github.com/HamdanUbaidillah/pixabay-api",
     "desc": "Find image from Pixabay using Pixabay API"
+  },
+  {
+    "name": "Indonesian News",
+    "img": "/img/berita-indo.png",
+    "linkDemo": "https://hmdn-berita-indo.netlify.app/",
+    "linkRepo": "https://github.com/HamdanUbaidillah/berita-indo",
+    "desc": "Get Indonesian news from CNN"
   }
 ]
