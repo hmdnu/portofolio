@@ -3,7 +3,7 @@ const Cards = () => {
   return (
     <main>
       {/* card container */}
-      <div className="grid grid-cols-3 gap-y-10 max-md:grid-cols-2 w-[80%] max-sm:w-[90%] max-md:w-[95%] max-sm:grid-cols-1 mt-5 m-auto place-items-center">
+      <div className="pb-10 grid grid-cols-3 gap-y-10 max-md:grid-cols-2 w-[80%] max-sm:w-[90%] max-md:w-[95%] max-sm:grid-cols-1 mt-5 m-auto place-items-center">
         {cardData.map((datas, i) => {
           return (
             // card container
