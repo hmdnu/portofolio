@@ -26,5 +26,12 @@
     "linkDemo": "https://hmdn-berita-indo.netlify.app/",
     "linkRepo": "https://github.com/HamdanUbaidillah/berita-indo",
     "desc": "Get Indonesian news from CNN"
+  },
+  {
+    "name": "Tutorbang Landing Page",
+    "img": "/img/tutorbang.png",
+    "linkDemo": "https://tutorbang.netlify.app/",
+    "linkRepo": "https://github.com/HamdanUbaidillah/tutorbang.",
+    "desc": "Simple landing page design"
   }
 ]
